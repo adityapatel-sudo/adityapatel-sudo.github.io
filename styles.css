@@ -42,6 +42,11 @@ body {
 .column {
     padding: 0;
 }
+#name {
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+/*TODO(fix padding for pictures)*/
 #intro_container {
     padding:0;
     margin:0;
@@ -61,6 +66,18 @@ body {
 .fit-image {
     max-width: 100%;
     height: auto;
+}
+#succulent_pic {
+    padding-right: 70px;
+}
+.project_link {
+    text-decoration: underline;
+    cursor: pointer;
+    color: white;
+}
+.project_link:hover{
+    font-weight: bolder;
+    font-style: italic;
 }
 .frame {
     /*border: 50px solid white; !* Adjust the thickness of the border *!*/
