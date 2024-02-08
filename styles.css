@@ -33,6 +33,7 @@ body {
 }
 #intro {
     margin: 0;
+    height: auto;
 }
 
 .image {
@@ -49,9 +50,12 @@ body {
 #intro_row {
     margin: 0;
 }
+.fit-image {
+    max-width: 100%;
+    height: auto;
+}
 
 .section {
-
     height: 100vh; /* Set the height to viewport height */
     overflow-y: auto; /* Enable vertical scrolling if content exceeds viewport height */
     padding: 76px; /* Add padding for better readability */
