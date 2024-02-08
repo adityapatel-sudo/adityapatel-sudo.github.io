@@ -1,0 +1,38 @@
+body {
+    background-color: #1e1e1d;
+    color: white;
+    font-family: 'Azeret Mono', monospace;
+}
+.navbar {
+    background-color: #383838;
+}
+
+
+.navbar-toggler-icon {
+    color: white !important;
+}
+.nav-link {
+    color: white;
+}
+.nav-link:hover {
+    color: white;
+}
+.nav-item:hover {
+    font-weight: bolder;
+    font-style: italic;
+}
+.dropdown {
+    color: white;
+}
+
+.section {
+
+    height: 100vh; /* Set the height to viewport height */
+    overflow-y: auto; /* Enable vertical scrolling if content exceeds viewport height */
+    padding: 76px; /* Add padding for better readability */
+}
+
+/* Optional: Add styling for sections */
+#section2 {
+    background-color: #e0e0e0;
+}
