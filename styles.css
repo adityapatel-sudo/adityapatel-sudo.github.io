@@ -24,6 +24,13 @@ body {
 .dropdown {
     color: white;
 }
+.editable-text {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: text;
+    padding: 0;
+}
 
 .section {
 
