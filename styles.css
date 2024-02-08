@@ -31,6 +31,24 @@ body {
     cursor: text;
     padding: 0;
 }
+#intro {
+    margin: 0;
+}
+
+.image {
+    flex: 1; /* Take up available space */
+}
+.column {
+    padding: 0;
+}
+#intro_container {
+    padding:0;
+    margin:0;
+    max-width: 100%;
+}
+#intro_row {
+    margin: 0;
+}
 
 .section {
 
