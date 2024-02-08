@@ -17,8 +17,9 @@ function setCursorPosition(element, index) {
     selection.removeAllRanges();
     selection.addRange(range);
 }
-
-
+function getRandomNumber(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
 function deleteAndWrite() {
     if (myName !== name.innerText) {
         let count = 0
@@ -32,11 +33,11 @@ function deleteAndWrite() {
         if (count < name.innerText.length) {
             name.innerText = name.innerText.slice(0, name.innerText.length - 1);
             setCursorPosition(name, name.innerText.length)
-            timeoutID = setTimeout(deleteAndWrite, 100); // Adjust the delay here (in milliseconds)
+            timeoutID = setTimeout(deleteAndWrite, getRandomNumber(1,100)); // Adjust the delay here (in milliseconds)
         } else {
             name.innerText = myName.slice(0, name.innerText.length + 1)
             setCursorPosition(name, name.innerText.length)
-            timeoutID = setTimeout(deleteAndWrite, 200); // Adjust the delay here (in milliseconds)
+            timeoutID = setTimeout(deleteAndWrite, getRandomNumber(50,400)); // Adjust the delay here (in milliseconds)
         }
     } else {
         setCursorPosition(name, name.innerText.length)
