@@ -62,6 +62,12 @@ body {
     font-weight: bolder;
     font-style: italic;
 }
+.text_content{
+    background-color: #383838;
+    border: 1px black;
+    padding: 15px;
+    border-radius: 10px;
+}
 /*TODO(fix padding for pictures)*/
 #intro_container {
     padding:0;
