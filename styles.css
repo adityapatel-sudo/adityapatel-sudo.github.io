@@ -55,7 +55,13 @@ body {
 }
 .important_text {
     font-weight: bolder;
+    /*font-style: italic;*/
+}
+.important_text:hover{
     font-style: italic;
+}
+#class_list {
+    padding-left: 20px;
 }
 .text_content{
     background-color: #383838;
@@ -85,7 +91,11 @@ body {
     height: auto;
 }
 #succulent_pic {
-    padding-right: 70px;
+
+}
+#intro_description_1{
+    padding: 0;
+    margin: 0;
 }
 .project_link {
     text-decoration: underline;
