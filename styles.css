@@ -63,6 +63,18 @@ body {
 #class_list {
     padding-left: 20px;
 }
+.picture_div {
+    position: relative;
+    display: inline-block;
+}
+.caption{
+    position: absolute;
+    bottom: 0;
+    padding: 10px 10px 10px 12px;
+    font-size: larger;
+    font-style: italic;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional: Add shadow to text */
+}
 .text_content{
     background-color: #383838;
     border: 1px black;
